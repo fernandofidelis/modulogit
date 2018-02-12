@@ -1,0 +1,24 @@
+body {
+	background-color:blue;
+	color:white;
+}
+
+h1 {
+	color:red; 
+}
+
+img {
+	width:200px; 
+
+}
+.teste {
+	width:500px; 
+}
+
+#titulo {
+	font-size:12px;
+}
+
+.teste2 {
+	background-color:yellow;
+}

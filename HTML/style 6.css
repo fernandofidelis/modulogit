@@ -1,0 +1,69 @@
+body {
+	margin: 0;
+}
+
+.pagina {
+	margin: auto;
+	width: 100%;
+    max-width: 1000px;
+	background-color: red;
+}
+
+.topo {
+	width: 100%;
+
+	height: 100px;
+	margin: auto;
+}
+
+.logo {
+	float: left;
+	width: 50%;
+	height: 100px;
+	background-color: #EEE;
+}
+
+.menu {
+float: left;
+	width: 50%;
+	height: 100px;
+	background-color: #DDD;
+}
+
+.corpo {
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	background-color: #CCC;
+}
+
+.rodape {
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	background-color: #BBB;
+}
+
+x@media only screen and (min-width: 500px) and (max-width: 800px) {
+	.pagina {
+		width: 500px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	
+	pagina{
+		width: 300px;
+	}
+	.topo {
+		height: 200px;
+	}
+
+	.logo {
+		width: 100%;
+	}
+
+	.menu {
+		width: 100%;
+	}
+}

@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	font-family: Arial;
+	background-color: #EEE;
+}
+
+form {
+	width: 160px;
+	height: 150px;
+	background-color: #DDD;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	xtext-align: center;
+	border-radius: 10px;
+
+}
+
+input {
+	padding: 5px;
+	font-size: 13px;
+	width: 100%;
+	text-align: center;
+}
